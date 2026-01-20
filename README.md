@@ -1,91 +1,102 @@
-# AI Career Assistant 🤖
+# 🤖 AI Career Assistant
 
-AI Career Assistant is a Python-based chatbot designed to help students and freshers with
-career guidance, resume support, and study/skill recommendations.
+AI Career Assistant is a Python-based web application built using Streamlit.  
+It helps students and freshers by providing career guidance, resume tips, and skill development suggestions through a simple chatbot interface.
 
-⚠️ **Note:** This project is a **rule-based chatbot with optional machine learning support**.  
-It is **not a generative AI system** (like ChatGPT), but a structured chatbot built for learning and guidance purposes.
+This project is designed to be easy to understand, modify, and extend.
 
 ---
 
 ## 🚀 Features
 
 - Career guidance based on user queries
-- Resume-related assistance
-- Study and skill roadmap suggestions
-- Modular page-based application design
-- Easy to extend with Machine Learning or NLP models
+- Resume assistance and suggestions
+- Study roadmap and skill recommendations
+- Interactive chatbot interface
+- Clean and modular project structure
 
 ---
 
-## 🧠 How It Works
+## 🧠 How the Application Works
 
-1. The user enters a query through the application interface.
-2. The chatbot matches the query with predefined intents.
-3. Responses are generated using:
-   - **Rule-based logic** defined in `intents.json`
-   - **Optional ML-based classification** (if a trained model is available)
-4. The appropriate response is displayed to the user.
+1. The user enters a question in the chatbot.
+2. The system matches the input with predefined intents.
+3. Responses are generated using rule-based logic.
+4. The response is displayed on the Streamlit web interface.
 
 ---
 
 ## 🗂 Project Structure
 
-AI_Career_Assistant/
+AI_Career_Guidence/
 │
-├── app.py # Main entry point of the application
-├── README.md # Project documentation
+├── app.py
+├── README.md
 ├── .gitignore
 │
 ├── data/
-│ └── intents.json # Intent and response definitions
+│ └── intents.json
 │
 ├── pages/
-│ ├── 1_home.py # Home page
-│ ├── 2_Roadmap.py # Career roadmap page
-│ ├── 3_Chatbot.py # Chatbot interface
-│ ├── 4_Resume.py # Resume guidance page
+│ ├── 1_home.py
+│ ├── 2_Roadmap.py
+│ ├── 3_Chatbot.py
+│ ├── 4_Resume.py
 │ └── 5_Study_and_Skills.py
 │
 ├── utils/
-│ ├── ai_chatbot.py # Core chatbot logic
-│ └── train_model.py # Optional ML model training script
+│ ├── ai_chatbot.py
+│ └── train_model.py
 
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Make sure **Python 3.9 or above** is installed on your system.
+### Prerequisites
+- Python 3.9 or above
+- pip installed
 
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/Pavithraa2005/AI-_Career_Assistant.git
-Navigate to the project directory:
+---
 
-cd AI-_Career_Assistant
-Run the application:
+### Steps to Run
 
-python app.py
-📦 Requirements
-Python 3.9 or higher
+```bash
+git clone https://github.com/Nisthula268/AI_Career_Guidence.git
+cd AI_Career_Guidence
+pip install streamlit
+streamlit run app.py
+The application will open in your browser at:
 
-Standard Python libraries
+http://localhost:8501
+🌐 Deployment
+The project can be deployed using Streamlit Community Cloud.
 
-(Optional) Machine Learning libraries if training the model
+Push the project to GitHub
 
-🔮 Future Improvements
-Integrate NLP libraries such as spaCy or NLTK
+Go to https://share.streamlit.io
 
-Replace rule-based logic with a full ML/NLP-based chatbot
+Select the repository
 
-Add user authentication and profile tracking
+Choose branch main and file app.py
 
-Deploy the application using Streamlit or Flask
+Click Deploy
 
-Connect to a database for persistent data storage
+👤 Author
+Name: Nisthula
+Email: nisthula268@gmail.com
+GitHub: https://github.com/Nisthula268
 
-👩‍💻 Author
-Pavithra
-Undergraduate Student | Aspiring Software Engineer
-Interested in AI, software development, and career-oriented applications
+📜 License
+This project is developed for academic and learning purposes.
+
+
+---
+
+### ✅ What to do now
+After pasting this README:
+
+```bash
+git add README.md
+git commit -m "Add final README for Nisthula"
+git push origin main
