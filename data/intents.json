@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hlo",
+        "hii",
+        "hey",
+        "hai",
+        "helo",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "hey there",
+        "hi bot",
+        "hello bot"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What would you like to know?",
+        "Hey! Feel free to ask me anything.",
+        "Hello! I'm here to help you with careers and skills."
+      ]
+    },
+
+    {
+      "tag": "career",
+      "patterns": [
+        "what career should i choose",
+        "help me choose a career",
+        "career guidance",
+        "i am confused about my future",
+        "which career is best for me",
+        "career options after graduation",
+        "what should i do after college",
+        "i don't know what job to choose",
+        "career advice for students",
+        "how to decide my career path"
+      ],
+      "responses": [
+        "Tell me your interests and skills, I’ll help you choose a career.",
+        "Career decisions depend on your strengths. What do you enjoy doing?",
+        "I can guide you better if you share your skills and goals.",
+        "Let’s explore your interests to decide a suitable career path."
+      ]
+    },
+
+    {
+      "tag": "skills",
+      "patterns": [
+        "how to improve my skills",
+        "how to learn programming",
+        "improve coding skills",
+        "how can i get better at coding",
+        "learn new skills",
+        "how to develop technical skills",
+        "how to build skills for job",
+        "what skills should i learn",
+        "skill development tips"
+      ],
+      "responses": [
+        "Practice regularly and work on real-world projects.",
+        "Focus on fundamentals and apply them through hands-on projects.",
+        "Consistency and practice are the keys to improving skills.",
+        "Learning by doing helps you gain strong skills."
+      ]
+    },
+
+    {
+      "tag": "jobs",
+      "patterns": [
+        "how to get a job",
+        "job opportunities for freshers",
+        "how to get placed",
+        "find a job",
+        "jobs after graduation",
+        "career opportunities",
+        "how to apply for jobs",
+        "tips to get a job",
+        "job search guidance"
+      ],
+      "responses": [
+        "Build strong skills, create projects, and apply consistently.",
+        "Internships and projects help a lot in getting a job.",
+        "Focus on skills, resume building, and interview preparation.",
+        "Networking and continuous learning improve job opportunities."
+      ]
+    },
+
+    {
+      "tag": "resume",
+      "patterns": [
+        "how to build a resume",
+        "resume tips",
+        "how to prepare resume",
+        "make my resume better",
+        "resume for freshers",
+        "how to write a good resume",
+        "resume format for students"
+      ],
+      "responses": [
+        "Keep your resume clear, concise, and skill-focused.",
+        "Highlight your projects, skills, and internships in your resume.",
+        "Use a clean format and focus on achievements, not just marks.",
+        "Customize your resume based on the job role."
+      ]
+    },
+
+    {
+      "tag": "interview",
+      "patterns": [
+        "interview tips",
+        "how to prepare for interview",
+        "interview preparation",
+        "how to crack interview",
+        "technical interview tips",
+        "interview questions for freshers",
+        "how to face interview"
+      ],
+      "responses": [
+        "Revise fundamentals, practice questions, and stay confident.",
+        "Mock interviews and clear understanding of basics help a lot.",
+        "Prepare your projects well and explain them clearly.",
+        "Confidence and practice are key to cracking interviews."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "thanks",
+        "thank you",
+        "thank you so much",
+        "bye bye"
+      ],
+      "responses": [
+        "You're welcome! All the best.",
+        "Goodbye! Feel free to come back anytime.",
+        "Happy to help. Take care!",
+        "Best wishes for your future!"
+      ]
+    }
+  ]
+}
