@@ -89,14 +89,3 @@ GitHub: https://github.com/Nisthula268
 
 📜 License
 This project is developed for academic and learning purposes.
-
-
----
-
-### ✅ What to do now
-After pasting this README:
-
-```bash
-git add README.md
-git commit -m "Add final README for Nisthula"
-git push origin main
